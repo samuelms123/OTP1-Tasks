@@ -1,12 +1,12 @@
 pipeline{
     agent any
     environment {
-            //PATH = "C:\\Program Files\\Docker\\Docker\\resources\\bin;${env.PATH}"
+            PATH = "C:\\Program Files\\Docker\\Docker\\resources\\bin;${env.PATH}"
 
             // Define Docker Hub credentials ID
             DOCKERHUB_CREDENTIALS_ID = 'docker_hub'
             // Define Docker Hub repository name
-            DOCKERHUB_REPO = 'samuelms123/otp-1_tasks'
+            DOCKERHUB_REPO = 'samuelms123/otp-1_tasks2'
             // Define Docker image tag
             DOCKER_IMAGE_TAG = 'latest'
         }
