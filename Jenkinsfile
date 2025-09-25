@@ -1,7 +1,7 @@
 pipeline{
     agent any
     environment {
-            PATH = "C:\\Program Files\\Docker\\Docker\\resources\\bin;${env.PATH}"
+            //PATH = "C:\\Program Files\\Docker\\Docker\\resources\\bin;${env.PATH}"
 
             // Define Docker Hub credentials ID
             DOCKERHUB_CREDENTIALS_ID = 'docker_hub'
