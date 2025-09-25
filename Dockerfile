@@ -9,4 +9,4 @@ COPY . /app
 
 RUN mvn package
 
-CMD ["java", "-jar", "target/TimeCal.jar"]
+CMD ["java", "-jar", "target/TempConverter.jar"]
