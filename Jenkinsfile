@@ -16,7 +16,7 @@ pipeline{
     stages{
         stage('checking'){
             steps{
-                git branch:'master', url:'https://github.com/samuelms123/OTP1-Tasks.git'
+                git branch:'main', url:'https://github.com/samuelms123/OTP1-Tasks.git'
             }
         }
         stage('build'){
